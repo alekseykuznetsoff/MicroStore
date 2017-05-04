@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		734B8CB0FF6DD678010EE0EA /* libPods-MicroStoreTestProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F5B15CA2911DF318601B82E /* libPods-MicroStoreTestProject.a */; };
+		863680BF1E6D8A6F00D48E6A /* MSStockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 863680BE1E6D8A6F00D48E6A /* MSStockViewController.m */; };
+		863680C41E6D8ACB00D48E6A /* MSCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 863680C31E6D8ACB00D48E6A /* MSCartViewController.m */; };
+		863680C81E6D8AFF00D48E6A /* MSStockCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 863680C71E6D8AFF00D48E6A /* MSStockCell.m */; };
+		863680CB1E6D8B0A00D48E6A /* MSCartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 863680CA1E6D8B0A00D48E6A /* MSCartCell.m */; };
+		86A886F91E6D888600D21E9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A886F11E6D888600D21E9B /* LaunchScreen.storyboard */; };
+		86A886FA1E6D888600D21E9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A886F21E6D888600D21E9B /* Main.storyboard */; };
+		86A886FB1E6D888600D21E9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A886F51E6D888600D21E9B /* AppDelegate.m */; };
+		86A886FC1E6D888600D21E9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86A886F61E6D888600D21E9B /* Assets.xcassets */; };
+		86A886FE1E6D888600D21E9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A886F81E6D888600D21E9B /* main.m */; };
+		86DF2A501E6EE384003F8286 /* MSCart.m in Sources */ = {isa = PBXBuildFile; fileRef = 86DF2A4F1E6EE384003F8286 /* MSCart.m */; };
+		86DF2A531E6EE4A6003F8286 /* MSProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 86DF2A521E6EE4A6003F8286 /* MSProduct.m */; };
+		86DF2A561E6EE4B8003F8286 /* MSStock.m in Sources */ = {isa = PBXBuildFile; fileRef = 86DF2A551E6EE4B8003F8286 /* MSStock.m */; };
+		86E742591E6D93A80081DB0F /* MSDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E742581E6D93A80081DB0F /* MSDataManager.m */; };
+		86E7425C1E6D93C80081DB0F /* MicroStoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86E7425A1E6D93C80081DB0F /* MicroStoreDataModel.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26A515D2135A09FB4C768007 /* Pods-MicroStoreTestProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicroStoreTestProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-MicroStoreTestProject/Pods-MicroStoreTestProject.release.xcconfig"; sourceTree = "<group>"; };
+		7F5B15CA2911DF318601B82E /* libPods-MicroStoreTestProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MicroStoreTestProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		863680BD1E6D8A6F00D48E6A /* MSStockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSStockViewController.h; sourceTree = "<group>"; };
+		863680BE1E6D8A6F00D48E6A /* MSStockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSStockViewController.m; sourceTree = "<group>"; };
+		863680C21E6D8ACB00D48E6A /* MSCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCartViewController.h; sourceTree = "<group>"; };
+		863680C31E6D8ACB00D48E6A /* MSCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCartViewController.m; sourceTree = "<group>"; };
+		863680C61E6D8AFF00D48E6A /* MSStockCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSStockCell.h; sourceTree = "<group>"; };
+		863680C71E6D8AFF00D48E6A /* MSStockCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSStockCell.m; sourceTree = "<group>"; };
+		863680C91E6D8B0A00D48E6A /* MSCartCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCartCell.h; sourceTree = "<group>"; };
+		863680CA1E6D8B0A00D48E6A /* MSCartCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCartCell.m; sourceTree = "<group>"; };
+		86A886D61E6D7EBF00D21E9B /* MicroStoreTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicroStoreTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86A886F11E6D888600D21E9B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86A886F21E6D888600D21E9B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		86A886F41E6D888600D21E9B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		86A886F51E6D888600D21E9B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		86A886F61E6D888600D21E9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86A886F71E6D888600D21E9B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86A886F81E6D888600D21E9B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86DF2A4E1E6EE384003F8286 /* MSCart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCart.h; sourceTree = "<group>"; };
+		86DF2A4F1E6EE384003F8286 /* MSCart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCart.m; sourceTree = "<group>"; };
+		86DF2A511E6EE4A6003F8286 /* MSProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSProduct.h; sourceTree = "<group>"; };
+		86DF2A521E6EE4A6003F8286 /* MSProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSProduct.m; sourceTree = "<group>"; };
+		86DF2A541E6EE4B8003F8286 /* MSStock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSStock.h; sourceTree = "<group>"; };
+		86DF2A551E6EE4B8003F8286 /* MSStock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSStock.m; sourceTree = "<group>"; };
+		86E742521E6D92980081DB0F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		86E742531E6D92C60081DB0F /* MSMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSMacro.h; sourceTree = "<group>"; };
+		86E742571E6D93A80081DB0F /* MSDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDataManager.h; sourceTree = "<group>"; };
+		86E742581E6D93A80081DB0F /* MSDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSDataManager.m; sourceTree = "<group>"; };
+		86E7425B1E6D93C80081DB0F /* MicroStoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MicroStoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		FB2D665D1546674E81D5A6EC /* Pods-MicroStoreTestProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicroStoreTestProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MicroStoreTestProject/Pods-MicroStoreTestProject.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86A886D31E6D7EBF00D21E9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734B8CB0FF6DD678010EE0EA /* libPods-MicroStoreTestProject.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		863680BC1E6D8A5D00D48E6A /* StockViewController */ = {
+			isa = PBXGroup;
+			children = (
+				863680C01E6D8A8800D48E6A /* Cells */,
+				863680BD1E6D8A6F00D48E6A /* MSStockViewController.h */,
+				863680BE1E6D8A6F00D48E6A /* MSStockViewController.m */,
+			);
+			path = StockViewController;
+			sourceTree = "<group>";
+		};
+		863680C01E6D8A8800D48E6A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				863680C61E6D8AFF00D48E6A /* MSStockCell.h */,
+				863680C71E6D8AFF00D48E6A /* MSStockCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		863680C11E6D8AC100D48E6A /* CartViewController */ = {
+			isa = PBXGroup;
+			children = (
+				863680C51E6D8ADB00D48E6A /* Cells */,
+				863680C21E6D8ACB00D48E6A /* MSCartViewController.h */,
+				863680C31E6D8ACB00D48E6A /* MSCartViewController.m */,
+			);
+			path = CartViewController;
+			sourceTree = "<group>";
+		};
+		863680C51E6D8ADB00D48E6A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				863680C91E6D8B0A00D48E6A /* MSCartCell.h */,
+				863680CA1E6D8B0A00D48E6A /* MSCartCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		86A886CD1E6D7EBF00D21E9B = {
+			isa = PBXGroup;
+			children = (
+				86A886D81E6D7EBF00D21E9B /* MicroStoreTestProject */,
+				86A886D71E6D7EBF00D21E9B /* Products */,
+				8A063FBBB3337ABDE0F518AB /* Pods */,
+				BF616740928B73B0735EBE02 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		86A886D71E6D7EBF00D21E9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86A886D61E6D7EBF00D21E9B /* MicroStoreTestProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86A886D81E6D7EBF00D21E9B /* MicroStoreTestProject */ = {
+			isa = PBXGroup;
+			children = (
+				86E742541E6D93940081DB0F /* Data */,
+				86A886F01E6D888600D21E9B /* Screens */,
+				86A886F31E6D888600D21E9B /* Supporting Files */,
+			);
+			path = MicroStoreTestProject;
+			sourceTree = "<group>";
+		};
+		86A886F01E6D888600D21E9B /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				863680C11E6D8AC100D48E6A /* CartViewController */,
+				863680BC1E6D8A5D00D48E6A /* StockViewController */,
+				86A886F11E6D888600D21E9B /* LaunchScreen.storyboard */,
+				86A886F21E6D888600D21E9B /* Main.storyboard */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		86A886F31E6D888600D21E9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86A886F41E6D888600D21E9B /* AppDelegate.h */,
+				86A886F51E6D888600D21E9B /* AppDelegate.m */,
+				86A886F61E6D888600D21E9B /* Assets.xcassets */,
+				86A886F71E6D888600D21E9B /* Info.plist */,
+				86A886F81E6D888600D21E9B /* main.m */,
+				86E742521E6D92980081DB0F /* PrefixHeader.pch */,
+				86E742531E6D92C60081DB0F /* MSMacro.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86E742541E6D93940081DB0F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				86E742551E6D93940081DB0F /* DataManager */,
+				86E742561E6D93940081DB0F /* Store */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		86E742551E6D93940081DB0F /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				86E742571E6D93A80081DB0F /* MSDataManager.h */,
+				86E742581E6D93A80081DB0F /* MSDataManager.m */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		86E742561E6D93940081DB0F /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				86E7425A1E6D93C80081DB0F /* MicroStoreDataModel.xcdatamodeld */,
+				86DF2A541E6EE4B8003F8286 /* MSStock.h */,
+				86DF2A551E6EE4B8003F8286 /* MSStock.m */,
+				86DF2A4E1E6EE384003F8286 /* MSCart.h */,
+				86DF2A4F1E6EE384003F8286 /* MSCart.m */,
+				86DF2A511E6EE4A6003F8286 /* MSProduct.h */,
+				86DF2A521E6EE4A6003F8286 /* MSProduct.m */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		8A063FBBB3337ABDE0F518AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB2D665D1546674E81D5A6EC /* Pods-MicroStoreTestProject.debug.xcconfig */,
+				26A515D2135A09FB4C768007 /* Pods-MicroStoreTestProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF616740928B73B0735EBE02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F5B15CA2911DF318601B82E /* libPods-MicroStoreTestProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86A886D51E6D7EBF00D21E9B /* MicroStoreTestProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86A886ED1E6D7EBF00D21E9B /* Build configuration list for PBXNativeTarget "MicroStoreTestProject" */;
+			buildPhases = (
+				7FB80A1F6424A4B139309C40 /* [CP] Check Pods Manifest.lock */,
+				86A886D21E6D7EBF00D21E9B /* Sources */,
+				86A886D31E6D7EBF00D21E9B /* Frameworks */,
+				86A886D41E6D7EBF00D21E9B /* Resources */,
+				B1275F4B40CE047B5D52E0FB /* [CP] Embed Pods Frameworks */,
+				C657D5446EF8670268B52190 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MicroStoreTestProject;
+			productName = MicroStoreTestProject;
+			productReference = 86A886D61E6D7EBF00D21E9B /* MicroStoreTestProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86A886CE1E6D7EBF00D21E9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Kuznetsov Aleksey";
+				TargetAttributes = {
+					86A886D51E6D7EBF00D21E9B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MU2U9Q7TFR;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 86A886D11E6D7EBF00D21E9B /* Build configuration list for PBXProject "MicroStoreTestProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86A886CD1E6D7EBF00D21E9B;
+			productRefGroup = 86A886D71E6D7EBF00D21E9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86A886D51E6D7EBF00D21E9B /* MicroStoreTestProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86A886D41E6D7EBF00D21E9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86A886F91E6D888600D21E9B /* LaunchScreen.storyboard in Resources */,
+				86A886FC1E6D888600D21E9B /* Assets.xcassets in Resources */,
+				86A886FA1E6D888600D21E9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7FB80A1F6424A4B139309C40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B1275F4B40CE047B5D52E0FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MicroStoreTestProject/Pods-MicroStoreTestProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C657D5446EF8670268B52190 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MicroStoreTestProject/Pods-MicroStoreTestProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86A886D21E6D7EBF00D21E9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863680C81E6D8AFF00D48E6A /* MSStockCell.m in Sources */,
+				86DF2A561E6EE4B8003F8286 /* MSStock.m in Sources */,
+				86DF2A531E6EE4A6003F8286 /* MSProduct.m in Sources */,
+				863680C41E6D8ACB00D48E6A /* MSCartViewController.m in Sources */,
+				86E742591E6D93A80081DB0F /* MSDataManager.m in Sources */,
+				86DF2A501E6EE384003F8286 /* MSCart.m in Sources */,
+				86A886FE1E6D888600D21E9B /* main.m in Sources */,
+				86E7425C1E6D93C80081DB0F /* MicroStoreDataModel.xcdatamodeld in Sources */,
+				863680CB1E6D8B0A00D48E6A /* MSCartCell.m in Sources */,
+				86A886FB1E6D888600D21E9B /* AppDelegate.m in Sources */,
+				863680BF1E6D8A6F00D48E6A /* MSStockViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		86A886EB1E6D7EBF00D21E9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86A886EC1E6D7EBF00D21E9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86A886EE1E6D7EBF00D21E9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB2D665D1546674E81D5A6EC /* Pods-MicroStoreTestProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = MU2U9Q7TFR;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/Supporting Files/PrefixHeader.pch";
+				INFOPLIST_FILE = "MicroStoreTestProject/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KAD.MicroStoreTestProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		86A886EF1E6D7EBF00D21E9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26A515D2135A09FB4C768007 /* Pods-MicroStoreTestProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = MU2U9Q7TFR;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/Supporting Files/PrefixHeader.pch";
+				INFOPLIST_FILE = "MicroStoreTestProject/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KAD.MicroStoreTestProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86A886D11E6D7EBF00D21E9B /* Build configuration list for PBXProject "MicroStoreTestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86A886EB1E6D7EBF00D21E9B /* Debug */,
+				86A886EC1E6D7EBF00D21E9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86A886ED1E6D7EBF00D21E9B /* Build configuration list for PBXNativeTarget "MicroStoreTestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86A886EE1E6D7EBF00D21E9B /* Debug */,
+				86A886EF1E6D7EBF00D21E9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		86E7425A1E6D93C80081DB0F /* MicroStoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				86E7425B1E6D93C80081DB0F /* MicroStoreDataModel.xcdatamodel */,
+			);
+			currentVersion = 86E7425B1E6D93C80081DB0F /* MicroStoreDataModel.xcdatamodel */;
+			path = MicroStoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 86A886CE1E6D7EBF00D21E9B /* Project object */;
+}

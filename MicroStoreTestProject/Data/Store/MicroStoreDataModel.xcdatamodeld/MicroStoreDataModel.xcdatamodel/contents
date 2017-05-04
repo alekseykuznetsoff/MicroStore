@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16D32" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="MSCart" representedClassName="MSCart" syncable="YES" codeGenerationType="category">
+        <attribute name="amount" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="product" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MSProduct" inverseName="atCart" inverseEntity="MSProduct" syncable="YES"/>
+    </entity>
+    <entity name="MSProduct" representedClassName="MSProduct" syncable="YES" codeGenerationType="category">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="atCart" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MSCart" inverseName="product" inverseEntity="MSCart" syncable="YES"/>
+        <relationship name="atStock" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MSStock" inverseName="product" inverseEntity="MSStock" syncable="YES"/>
+    </entity>
+    <entity name="MSStock" representedClassName="MSStock" syncable="YES" codeGenerationType="category">
+        <attribute name="amount" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="product" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MSProduct" inverseName="atStock" inverseEntity="MSProduct" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="MSCart" positionX="-245" positionY="-315" width="128" height="73"/>
+        <element name="MSProduct" positionX="-18" positionY="-249" width="128" height="103"/>
+        <element name="MSStock" positionX="-245" positionY="-138" width="128" height="73"/>
+    </elements>
+</model>
