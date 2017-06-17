@@ -8,7 +8,6 @@
 
 #import "MSStockViewController.h"
 #import "MSStockCell.h"
-//#import "MSCartViewController.h"
 
 @interface MSStockViewController () <UITableViewDataSource, UITableViewDelegate, NSFetchedResultsControllerDelegate>
 
@@ -27,19 +26,8 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-//    self.cartFRC.delegate = self;
     [self updateCartButton];
 }
-
-//#pragma mark - --Segues
-//- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-//{
-//    if ([segue.identifier isEqualToString:@"StoreToCart"])
-//    {
-//        MSCartViewController *vc = segue.destinationViewController;
-//        vc.FRC = self.cartFRC;
-//    }
-//}
 
 #pragma mark - --Setters&Getters
 - (NSFetchedResultsController *)stockFRC
